@@ -11,6 +11,8 @@ Using HA-proxy &amp; multi Sahdowsocks client to make a GFW fucking system.
 
 ## haproxy配置
 
+    sudo ln -sf $项目目录/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg
+    
 ## supervisor配置
 
     sudo ln -s $项目目录/supervisor/sslocal.conf /etc/supervisor/conf.d/sslocals.conf 
